@@ -18,13 +18,13 @@ Este é um projeto simples de web scraper desenvolvido em Node.js utilizando a b
 1. Clone o repositório para sua máquina local:
 
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/aziulll/web-scraper-with-node.git
    ```
 
 2. Instale as dependências do projeto:
 
    ```
-   cd nome-do-repositorio
+   cd web-scraper-with-node
    npm install
    ```
 
@@ -33,7 +33,7 @@ Este é um projeto simples de web scraper desenvolvido em Node.js utilizando a b
 1. Execute o programa através do seguinte comando:
 
    ```
-   npm start
+   node app.js
    ```
 
 2. O programa exibirá um menu com opções para processar URLs existentes, adicionar novas URLs ou encerrar o programa.
@@ -47,9 +47,8 @@ Este é um projeto simples de web scraper desenvolvido em Node.js utilizando a b
 ## Estrutura do Projeto
 
 - **`Scraper.js`**: Contém a classe `Scraper` responsável por realizar o scraping de uma página utilizando Puppeteer.
-- **`main.js`**: Arquivo principal que gerencia a interação com o usuário e utiliza a classe `Scraper` para coletar os dados.
+- **`app.js`**: Arquivo principal que gerencia a interação com o usuário e utiliza a classe `Scraper` para coletar os dados.
 - **`utils/`**: Pasta contendo módulos auxiliares como salvar URLs e gerenciar as URLs processadas.
-- **`src/`**: Pasta opcional para organizar o código-fonte principal do projeto.
 
 ## Contribuição
 
