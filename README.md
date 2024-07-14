@@ -44,6 +44,28 @@ Este é um projeto simples de web scraper desenvolvido em Node.js utilizando a b
 
 5. Para encerrar o programa, selecione a opção correspondente no menu.
 
+
+## Outputs de exemplo
+
+![alt text](outputs/options.png)
+
+```
+As urls que irão ter o conteúdo extraido na opção 1
+```
+![alt text](outputs/urls.png)
+
+![alt text](outputs/option1.png.png)
+
+```
+Opção 2
+```
+![alt text](outputs/option2.png.png)
+
+```
+Histórico de Urls que foram extraidas; Arquivo é criado ao rodar o projeto
+```
+![alt text](outputs/saveurls.png.png)
+
 ## Estrutura do Projeto
 
 - **`Scraper.js`**: Contém a classe `Scraper` responsável por realizar o scraping de uma página utilizando Puppeteer.
