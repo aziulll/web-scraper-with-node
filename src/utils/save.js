@@ -15,10 +15,12 @@ function saveURLs(urls) {
     fs.writeFileSync(URL_FILE_PATH, JSON.stringify(urls, null, 2), 'utf8');
 }
 
-function addURL(newURL) {
+function addURL(newURL, productData) {
     const urls = loadURLs();
-    if (!urls.includes(newURL)) {
-        urls.push(newURL);
+    const existingURL = urls.find(url => url.url === newURL);
+
+    if (!existingURL) {
+        urls.push({ url: newURL, data: productData });
         saveURLs(urls);
     }
 }

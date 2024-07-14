@@ -64,7 +64,7 @@ Opção 2
 ```
 Histórico de Urls que foram extraidas; Arquivo é criado ao rodar o projeto
 ```
-![alt text](outputs/saveurls.png)
+![alt text](outputs/savedata.png)
 
 ## Estrutura do Projeto
 

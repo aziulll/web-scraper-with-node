@@ -15,6 +15,7 @@ async function loadData(url) {
     const productData = await scraper.scrapePage();
     console.log("Collected data:");
     console.log(productData);
+    addURL(url, productData);
   } catch (error) {
     console.error("Error fetching product data", error);
   }
@@ -24,7 +25,6 @@ async function processAllURLs() {
   const urls = URL;
   for (const url of urls) {
     await loadData(url);
-    addURL(url);
   }
 }
 
@@ -32,7 +32,6 @@ async function addNewURL() {
   return new Promise((resolve) => {
     rl.question("New url: ", async (url) => {
       await loadData(url);
-      addURL(url);
       resolve();
     });
   });
