@@ -54,17 +54,17 @@ As urls que irão ter o conteúdo extraido na opção 1
 ```
 ![alt text](outputs/urls.png)
 
-![alt text](outputs/option1.png.png)
+![alt text](outputs/option1.png)
 
 ```
 Opção 2
 ```
-![alt text](outputs/option2.png.png)
+![alt text](outputs/option2.png)
 
 ```
 Histórico de Urls que foram extraidas; Arquivo é criado ao rodar o projeto
 ```
-![alt text](outputs/saveurls.png.png)
+![alt text](outputs/saveurls.png)
 
 ## Estrutura do Projeto
 
